@@ -22,6 +22,6 @@ end
 
 group :mongoid do
   gem 'mongo'
-  gem 'mongoid',  :git => "git://github.com/durran/mongoid.git"
+  gem 'mongoid',  '~>  2.0.0.beta.16'
   gem 'bson_ext', '>= 1.0.4'
 end
